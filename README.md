@@ -9,6 +9,15 @@
 1. 克隆本仓库
 2. 安装依赖
 3. 将需要被检测的窗口名填入`config.json`中的window_name
-4. 根据你的设备更改检测区域以及`main.py`中`draw_less_than`和`draw_more_than`函数中的绘制坐标。
+4. 在`main.py`中根据你的设备更改检测区域（`cur_first_number_pos`,`cur_second_number_pos`,`next_first_number_pos`,`next_second_number_pos`）以及`draw_less_than()`和`draw_more_than()`函数中的绘制坐标。
 5. 连接一个可以被调试的安卓设备
 6. 运行`main.py`
+
+## 已知问题
+
+1. adb模拟绘图有小几率无法被识别
+
+---
+
+因个人时间原因，本项目消极维护，任何问题请移步discussions，谢谢
+
